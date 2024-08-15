@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satay House</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="nav">
+        <div><img src="photos/logosatay.png" class="logo-img"></div>
+        <a href="#"></a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#location">Location</a>
+        <a href="#contact-us">Contact Us</a>
+      <div class="box">
+        <div class="cart-count">0</div>
+        <ion-icon name="cart"  id="cart-icon" ></ion-icon>
+      </div>
+
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+<!--
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">RM.72</div>
+                 <div class="cart-amt">RM.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">RM.72</div>
+                 <div class="cart-amt">RM.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+        -->
+        </div>
+
+      <div class="total">
+        <div class="total-title">Subtotal</div>
+        <div class="total-price">RM0</div>
+      </div>
+
+      <button class="btn-buy">Place Order</button>
+
+      <ion-icon name="close" id="cart-close"></ion-icon>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- home section -->
+    <div class="home-container" id="home">
+    </div>
+
+<!-- about us section -->
+    <div class="about-container">
+      <div class="about-image"><img src="photos/bakar.jpg" alt="" class="about-img"></div>
+      <img src="photos/satisfaction.png" alt="" class="satisfaction-img">
+      <div class="about-us" id="about">
+        <h2 class="title">About Us</h2>
+        <span class="about-description">Established in 2019, Satay House has flourished to become a household name for good and tasty satay in Malaysia. With numerous and unbeatable support, we had succesfully operated in 3 different locations in Kedah, Selangor and Johor. Satay House is founded by two successful business entrepreneurs, Ms Lidya and Ms Shobana with first shop in Selangor. From only 3 selection of satay, customers now can enjoy 6 selection of satay to satisfy their craving. <br><br> We offer an exciting dining experience as well as lightning fast delivery to your home or office. We also cater for big and special event at your house!. What are you waiting for!</span>
+      </div>
+  </div>
+
+  <!-- menu section -->
+  <div class="container" id="menu">
+    <h2 class="title">Ready to Order?</h2>
+    <div class="shop-content">
+
+
+      <div class="food-box">
+        <div class="pic">
+          <img src="photos/sate.jpg" class="food-img">
+        </div>
+        <h2 class="food-title">Sate Ayam</h2>
+        <span class="food-price">RM10</span><br><hr>
+        <caption>10 sticks, kuah kacang and garnish.</caption>
+        <button id='btn'class="add-cart">Add to cart</button>
+      </div>
+
+
+      <div class="food-box">
+        <div class="pic"><img src="photos/sate.jpg" class="food-img"></div>
+        <h2 class="food-title">Satay Daging</h2>
+        <span class="food-price">RM14</span><br><hr>
+        <caption>10 sticks, kuah kacang and garnish.</caption>
+        <button id='btn'class="add-cart">Add to cart</button>
+
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="photos/sate.jpg" class="food-img"></div>
+        <h2 class="food-title">Satay Perut</h2>
+        <span class="food-price">RM16</span><br><hr>
+        <caption>10 sticks, kuah kacang and garnish.</caption>
+        <button id='btn'class="add-cart">Add to cart</button>
+
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="photos/sate.jpg" class="food-img"></div>
+        <h2 class="food-title">Satay Hati</h2>
+        <span class="food-price">RM13</span><br><hr>
+        <caption>10 sticks, kuah kacang and garnish.</caption>
+        <button id='btn'class="add-cart">Add to cart</button>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="photos/sate.jpg" class="food-img"></div>
+        <h2 class="food-title">Satay Kambing</h2>
+        <span class="food-price">RM17</span><br><hr>
+        <caption>10 sticks, kuah kacang and garnish.</caption>
+        <button id='btn'class="add-cart">Add to cart</button>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="photos/sate.jpg" class="food-img"></div>
+        <h2 class="food-title">Nasi Impit</h2>
+        <span class="food-price">RM1</span><br><hr>
+        <caption>1 piece of nasi impit.</caption>
+        <button id='btn'class="add-cart">Add to cart</button>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="photos/sate.jpg" class="food-img"></div>
+        <h2 class="food-title">Ketupat</h2>
+        <span class="food-price">RM2</span><br><hr>
+        <caption>1 piece of ketupat.</caption>
+        <button id='btn'class="add-cart">Add to cart</button>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="photos/sate.jpg" class="food-img"></div>
+        <h2 class="food-title">Kuah Kacang</h2>
+        <span class="food-price">RM4</span><br><hr>
+        <caption>Packed in 300ml.</caption>
+        <button id='btn'class="add-cart">Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="location-container" id="location">
+    <h2 class="title">Visit Us at Our Shop</h2>
+      <div class="stall">
+        <div class="area">
+          <img src="photos/utara.jpg" alt="">
+          <p><b>Satay House, Medan Selera Kota Setar</b></p>
+          <p>North</p>
+          <p>Tel : 012-8654565</p>
+          <p>Operating hours:</p>
+          <p>Daily from 12pm to 11pm</p>
+        </div>
+        <div class="area">
+          <img src="photos/sentral.jpg" alt="">
+          <p><b>Satay House, Medan Selera Cyberjaya (Main)</b></p>
+          <p>Central</p>
+          <p>Tel : 011-7004565</p>
+          <p>Operating hours:</p>
+          <p>Daily from 12pm to 11pm</p>
+        </div>
+        <div class="area">
+          <img src="photos/selatan.jpg" alt="">
+          <p><b>Satay House, Medan Selera Majidee</b></p>
+          <p>South</p>
+          <p>Tel : 017-7775065</p>
+          <p>Operating hours:</p>
+          <p>Daily from 12pm to 11pm</p>
+
+        </div>
+      </div>
+        
+  </div>
+<div class="contact-us-container" id="contact-us">
+  <h2 class="title"  > For Event and Inquiry</h2>
+  <div><img src="photos/ketupat.jpg" alt="" class="contact-img"></div>
+  
+  <div class="contact-content">
+    <div class="event-form">
+              <form action="connect.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required />
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label class="" for="location">Location:</label>
+
+                <div class="button-form">
+                  <input type="radio" id="location1" name="area" value="1" />
+                  <label for="north">North</label>
+
+                  <input type="radio" id="location2" name="area" value="2" />
+                  <label for="central">Central</label>
+
+                  <input type="radio" id="location3" name="area" value="3" />
+                  <label for="south">South</label><br />
+                </div>
+
+                <label class="" for="purpose">Purpose:</label>
+                <div class="button-form">
+                  <input type="radio" id="event" name="purpose" value="1" />
+                  <label for="event">Event</label>
+
+                  <input type="radio" id="other" name="purpose" value="2" />
+                  <label for="other">Others</label>
+
+                </div>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="2" required></textarea>
+
+                <button type="submit" id="submit" name="submit" value="send message">Submit</button>
+                <button type="reset" id="clear" name="clear" value="reset">Clear</button>
+
+              </form>
+      </div>
+      <div class="google-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.6045556582417!2d101.6524153744603!3d2.929436497046885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37199e54d601%3A0xfb94554c8a76cd82!2sUniversity%20of%20Malaya%20Centre%20for%20Continuing%20Education%20(UMCCed)!5e0!3m2!1sen!2smy!4v1690086265313!5m2!1sen!2smy"
+            width="500"
+            height="500"
+            style="border: 1"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+      </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-content">
+      <p>Contact us at : <a href="mailto:@example.com">satayhouse.co</a></p>
+      <p><a href="">Term & Condition</a></p>
+
+    </div>
+</footer>
+
+
+
+  <script src="js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</html>
